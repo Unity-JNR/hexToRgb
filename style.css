@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: skyblue;
+}
+
+h2 {
+    color: #333; /* Default color */
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    color: #555; /* Default color */
+}
+
+#hexInput {
+    color: #666; /* Default color */
+}
+
+button {
+    background-color: #3498db; /* Default color */
+    color: #fff; /* Default color */
+}
+
+#result {
+    color: #333; /* Default color */
+}
+
+/* Media queries for tablet devices */
+@media only screen and (max-width: 768px) {
+    h2, label, #hexInput, button, #result {
+        color: #ff7f50; /* Salmon color for tablets */
+    }
+}
+
+/* Media queries for mobile devices */
+@media only screen and (max-width: 480px) {
+    h2, label, #hexInput, button, #result {
+        color: #2ecc71; /* Emerald color for mobile devices */
+    }
+}
